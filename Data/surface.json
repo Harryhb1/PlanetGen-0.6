@@ -1,0 +1,13 @@
+{
+	"name": "surfaces",
+	"version": "1.0.0",
+	"grass": {
+		"name": "Grass",
+		"depth": 50,
+		"zIndex": 1,
+		"noise": [1, 90, 0.3],
+		"gradStart": 0,
+		"gradEnd": 0.3,
+		"color": "r"
+	}	
+}

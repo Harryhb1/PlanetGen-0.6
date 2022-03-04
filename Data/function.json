@@ -1,0 +1,151 @@
+{
+	"name": "functions",
+	"version": "1.0.0",
+	
+	"entities": [
+		{
+			"power": 2,
+			"startValue": -50,
+			"endValue": 50,
+			"gradient": -0.2,
+			"horizontalShift": -20,
+			"verticalShift": -20
+		},
+		{
+			"power": 2,
+			"startValue": -50,
+			"endValue": 50,
+			"gradient": -0.2,
+			"horizontalShift": -20,
+			"verticalShift": -20
+		}
+	],
+	
+	"crators": {
+		"crator1": {
+			"direction": "v",
+			"scale": 1,
+			"functions": [
+				{
+					"power": 2,
+					"startValue": -50,
+					"endValue": 50,
+					"gradient": -0.2,
+					"horizontalShift": -20,
+					"verticalShift": -20
+				},
+				{
+					"power": 2,
+					"startValue": -50,
+					"endValue": 50,
+					"gradient": -0.2,
+					"horizontalShift": 20,
+					"verticalShift": -20
+				},
+				{
+					"power": 2,
+					"startValue": -10,
+					"endValue": 50,
+					"gradient": 0.0009,
+					"horizontalShift": -30,
+					"verticalShift": -30
+				},
+				{
+					"power": 2,
+					"startValue": -50,
+					"endValue": 10,
+					"gradient": 0.0009,
+					"horizontalShift": 30,
+					"verticalShift": -30
+				},
+				
+				{
+					"power": 1,
+					"startValue": -20,
+					"endValue": 20,
+					"gradient": 0,
+					"horizontalShift": 0,
+					"verticalShift": -20
+				}
+			]
+		}
+	},
+	"mountains": {
+			
+		"mount1": {
+			"direction": "v",
+			"scale": 1,
+			"functions": [
+				{
+					"power": 3,
+					"startValue": -20,
+					"endValue": 20,
+					"gradient": 0.005,
+					"horizontalShift": 20,
+					"verticalShift": -10
+				},
+				{
+					"power": 3,
+					"startValue": -20,
+					"endValue": 20,
+					"gradient": -0.005,
+					"horizontalShift": -20,
+					"verticalShift": -10
+				}
+			]
+		},
+		"mount2": {
+			"direction": "v",
+			"scale": 1,
+			"functions": [
+				{
+					"power": 2,
+					"startValue": -100,
+					"endValue": 100,
+					"gradient": 0.001,
+					"horizontalShift": 0,
+					"verticalShift": 0
+				}
+			]
+		},
+		"mount3": {
+			"direction": "v",
+			"scale": 1,
+			"functions": [
+				{
+					"power": 2,
+					"startValue": -100,
+					"endValue": 50,
+					"gradient": 0.001,
+					"horizontalShift": 0,
+					"verticalShift": 0
+				},
+				{
+					"power": 2,
+					"startValue": 50,
+					"endValue": 65,
+					"gradient": 0.01,
+					"horizontalShift": 35,
+					"verticalShift": 0
+				}
+			]
+		}
+	},
+	"cliffs": {
+		"cliff1": {
+			"direction": "h",
+			"scale": 1,
+			"functions": [
+				{
+					"power": 2,
+					"startValue": -50,
+					"endValue": 50,
+					"gradient": 0.01,
+					"horizontalShift": 0,
+					"verticalShift": 0
+				}
+			]
+		}
+	},
+	
+}
